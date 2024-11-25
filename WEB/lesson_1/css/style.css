@@ -1,0 +1,124 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000000;
+}
+.head__log img{
+    width: 100px;
+    height: 100px;
+}
+.head__name{
+    color: white;
+    font-size: 70px;
+}
+
+.head__nav ul {
+    color: white;
+    display: flex;
+}
+.head__nav li {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+li{
+    padding-bottom: 10px;
+}
+ol{
+    padding-left: 70px;
+}
+
+
+.main__start{
+    font-size: 50px;
+    padding: 15px;
+}
+.main__mid{
+    font-size: 40px;
+    padding: 20px;
+}
+.main__link {
+    padding: 0 0 0 50px ;
+    font-size: 30px;
+}
+.main__color1{
+    background-color: gray;
+}
+.main__table{
+    padding: 20px;
+}
+
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 40px;
+}
+thead {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+td {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+th {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+.text{
+    color: white;
+    font-size: 30px;
+}
+
+.data{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#text{
+    border: 2px solid rgb(0, 0, 0);
+}
+#tel{
+    border: 2px solid rgb(0, 0, 0);
+}
+#email{
+    border: 2px solid rgb(0, 0, 0);
+}
+#date{
+    border: 2px solid rgb(0, 0, 0);
+}
+#leng-select{
+    border: 2px solid rgb(0, 0, 0);
+}
+#textarea{
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.data__submit button{
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+.data__submit{
+    padding: 0 0 20px 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
